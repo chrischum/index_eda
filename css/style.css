@@ -93,5 +93,152 @@ body {
     color: #000000;
     display: block;
     padding: 5px;
+}
+
+/* ---------------ГЛАВНЫЙ ЭКРАН-------------------------------------------------------- */
+
+
+.slide-summer {
+    background-image: url('../img/main1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.slide {
+    display: flex;
+    border-radius: 20px;
+    min-height: 400px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.slide-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.slide-text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.button-primary {
+    background: #F47322;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 25px;
+    padding: 12px 50px;
+}
+
+.slide-content {
+    max-width: 400px;
+    margin: 76px 100px;
+}
+
+/* ---------------ПРОМО-------------------------------------------------------- */
+
+.promo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.promo-wrapper {
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.card-summer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    width: 570px;
+    min-height: 380px;
+    border-radius: 20px;
+    background-image: url('../img/promo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-winter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    width: 570px;
+    min-height: 380px;
+    border-radius: 20px;
+    background-image: url('../img/promo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.card-descr {
+    width: 168px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.card-price {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.card-delivery {
+    margin-bottom: 25px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.bitton-default {
+    width: 232px;
+    height: 49px;
+    left: 155px;
+    top: 831px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #5F5F61;
+    text-decoration: none;
+    cursor: pointer;
 }
