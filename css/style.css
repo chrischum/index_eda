@@ -7,10 +7,11 @@ body {
 }
 
 
-/* ---------------ШАПКА-------------------------------------------------------- */
+/* ---------------HEADER-------------------------------------------------------- */
 .container {
     max-width: 1194px;
     margin: 0 auto;
+    padding: 0 5px;
 }
 
 .logo-image {
@@ -95,7 +96,7 @@ body {
     padding: 5px;
 }
 
-/* ---------------ГЛАВНЫЙ ЭКРАН-------------------------------------------------------- */
+/* ---------------MAIN-------------------------------------------------------- */
 
 
 .slide-summer {
@@ -153,20 +154,21 @@ body {
     margin: 76px 100px;
 }
 
-/* ---------------ПРОМО-------------------------------------------------------- */
+/* ---------------PROMO-------------------------------------------------------- */
 
 .promo {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 30px 0 0 0;
 }
 
 .promo-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
 .card-summer {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -180,6 +182,7 @@ body {
 }
 
 .card-winter {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -241,4 +244,337 @@ body {
     color: #5F5F61;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* ---------------delivery-week-------------------------------------------------------- */
+
+.delivery-week {
+padding: 100px 0;
+}
+
+.delivery-title {
+    margin: 0;
+    margin-bottom: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.delivery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -14px;
+}
+
+.delivery-card {
+    position: relative;
+    margin: 14px;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+}
+
+.delivery-image {
+    width: 100%;
+    height: 100%;
+}
+
+.delivery-tag {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.tag-wihte {
+    color: #FFFFFF;
+}
+
+.tag-grey {
+    color: #49494F; 
+}
+
+.tag-healthy {
+    background: #D0FD89;
+}
+
+.tag-vegetables {
+    background: #AEBC41;
+}
+
+.tag-meat {
+    background: #B86B78;
+}
+
+.tag-bird {
+    background: #D68334;
+}
+
+.tag-fish {
+    background: #CD6255;
+}
+
+.tag-baby {
+    background: #FFFDBF;
+}
+
+.tag-parents {
+    background: #F6FDC8;
+}
+
+.tag-festive {
+    background: #FEF7FE;
+}
+
+/* ---------------category-------------------------------------------------------- */
+
+.category {
+    padding: 40px 0 60px 0;
+    background: #F6F6F6;
+}
+
+.category-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+
+.category-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 0 45px 0;
+    list-style: none;
+}
+
+.tab-link {
+    margin-right: 58px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.tabs-item:last-child {
+    margin-right: 0px;
+}
+
+.link-active {
+    color: #F37321;
+}
+
+.tabs-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -17px;
+}
+
+.tabs-card {
+    margin: 17px;
+    max-width: 270px;
+    min-height: 471px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabs-image {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tabs-title {
+    margin: 21px 23px 13px 23px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.tabs-descr {
+    margin: 0 23px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+}
+
+.tabs-info {
+    margin: 36px 23px 21px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-good {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+}
+
+.tabs-weight {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+
+.button-outline {
+    padding: 16px 25px;
+    border: 2px solid #F37321;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+    cursor: pointer;
+}
+
+
+.button-end {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 62px;
+    max-width: 315px;
+    height: 50px;
+    padding: 16px 100px;
+    border: 2px solid #F37321;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+    cursor: pointer;
+}
+
+/* ---------------advantage-------------------------------------------------------- */
+
+.advantage {
+    min-height: 673px;
+    padding: 100px 0 202px 0;
+}
+.advantage-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0 0 52px 0;
+
+}
+.advantage-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 30px 23px 25px 23px;
+    width: 270px;
+    height: 296px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.block-icon {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+.icon-item {
+    width: 100%;
+}
+.block-subtitle {
+    text-align: center;
+    max-width: 188px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 34px;
+}
+.block-descr {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494F;
+    margin-top: 13px;
+}
+
+/* ---------------footer-------------------------------------------------------- */
+
+.footer {
+    padding: 40px 0;
+    background: #F6F6F6;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 205px;
+    margin-right: 25px;
+}
+
+.footer-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin: 0px 25px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.social-link {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+    padding: 6px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #C4C4C4;
+    margin-left: 20px;   
+}
+
+.social-icon {
+width: 100%;
 }
